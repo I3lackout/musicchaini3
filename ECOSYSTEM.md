@@ -40,7 +40,8 @@ MusicChain i3
 - Admin panels, moderation tooling, fraud/abuse heuristics that aid attackers
 - Undocumented security controls
 
-See [musicchaini3/SECURITY.md](./musicchaini3/SECURITY.md).
+See [musicchaini3/SECURITY.md](./musicchaini3/SECURITY.md).  
+License: [Apache 2.0](./musicchaini3/LICENSE) · [NOTICE](./musicchaini3/NOTICE) · Brand: [TRADEMARK.md](./musicchaini3/TRADEMARK.md).
 
 ## Publishing workflow
 
@@ -60,4 +61,4 @@ Production architecture notes (private monorepo) that inform these docs:
 
 ---
 
-**Start here:** [musicchaini3/README.md](./musicchaini3/README.md)
+**Start here:** [musicchaini3/README.md](./musicchaini3/README.md) — project homepage with banner, features, and docs hub.

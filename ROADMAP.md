@@ -2,14 +2,34 @@
 
 > Dates are indicative. See [CHANGELOG.md](./CHANGELOG.md) for shipped items.
 
-## Phase 1 — Trust foundation *(now)*
+## 2026 milestones
 
-- [x] Public doc tree under `opensource/`
+| Status | Milestone |
+|--------|-----------|
+| ✅ | **Core platform** — accounts, tracks, library, dashboard |
+| ✅ | **Streaming** — web player, playtime commits, rewards |
+| ✅ | **Analytics** — listening stats, scoreboard, insights |
+| ✅ | **Public docs & MCIPs** — Phase 1 open-source tree |
+| ✅ | **GitHub repository** — [github.com/I3lackout/musicchaini3](https://github.com/I3lackout/musicchaini3) |
+| 🟡 | **Mobile** — native app beta / early access (Android) |
+| 🟡 | **Whitepaper** — outline live; expanded draft in progress |
+| ⬜ | **Public API** — OpenAPI + read endpoints |
+| ⬜ | **SDK** — JavaScript & Python clients |
+| ⬜ | **Community nodes** — seed-a-node, network ITC pipeline docs + OSS |
+
+Legend: ✅ shipped · 🟡 in progress · ⬜ planned
+
+---
+
+## Phase 1 — Trust foundation
+
+- [x] Public doc tree (`opensource/` → GitHub)
+- [x] Professional README, docs hub, banner
 - [x] VISION, TOKENOMICS overview, whitepaper outline
 - [x] MCIP skeleton (0001–0008)
 - [x] Tokenomics examples (1-minute listen walkthrough)
-- [ ] Publish `musicchaini3` repo on GitHub (docs only)
-- [ ] Link from musicchaini3.com footer / about page
+- [x] Publish `musicchaini3` repo on GitHub
+- [x] Link from musicchaini3.com footer / about page
 
 ## Phase 2 — Verifiable economics
 
@@ -28,7 +48,8 @@
 
 - [ ] `musicchain-live`: LiveSession lifecycle, signaling overview (no secrets)
 - [ ] `musicchain-js-sdk` / `musicchain-python-sdk` (read + authenticated flows)
-- [ ] Mobile app: documented push + playtime commit API
+- [ ] Mobile app: Google Play open beta · App Store listing
+- [ ] Documented push + playtime commit API
 
 ## Phase 5 — Governance
 

@@ -20,7 +20,7 @@ To protect users: secrets, admin tools, and abuse prevention are **private** unt
 
 ## What is a listen triad?
 
-One playtime commit that atomically attributes rewards to **listener**, **creator**, and **MusicChain** with a shared event id. See [docs/Economy.md](./docs/Economy.md).
+One playtime commit that atomically attributes rewards to **listener**, **creator**, and **MusicChain** with a shared event id. See [docs/economy.md](./docs/economy.md).
 
 ## What are PIA and TIA?
 

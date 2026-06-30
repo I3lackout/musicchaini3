@@ -96,8 +96,8 @@ See [ROADMAP.md](./ROADMAP.md).
 ## 15. References
 
 - [TOKENOMICS.md](./TOKENOMICS.md)
-- [../musicchain-specifications/](../musicchain-specifications/)
-- [../musicchain-tokenomics/](../musicchain-tokenomics/)
+- [musicchain-specifications/](./musicchain-specifications/)
+- [musicchain-tokenomics/](./musicchain-tokenomics/)
 - Triad architecture (internal): `docs/triad_soul_architecture.md`
 
 ---

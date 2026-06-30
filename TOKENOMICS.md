@@ -36,7 +36,7 @@ Listener  ←→  Creator  ←→  MusicChain (chain)
 
 ### Example: 60 seconds (Iron, illustrative)
 
-See [../musicchain-tokenomics/examples/listen_one_minute.md](../musicchain-tokenomics/examples/listen_one_minute.md).
+See [./musicchain-tokenomics/examples/listen_one_minute.md](./musicchain-tokenomics/examples/listen_one_minute.md).
 
 ## Interactions (not just playtime)
 

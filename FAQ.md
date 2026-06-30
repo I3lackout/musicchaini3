@@ -11,8 +11,8 @@ No proof-of-work mining. McCC is generated through **documented activities** (li
 ## Where can I verify reward math?
 
 - [TOKENOMICS.md](./TOKENOMICS.md)
-- [../musicchain-tokenomics/](../musicchain-tokenomics/)
-- MCIPs in [../musicchain-specifications/](../musicchain-specifications/)
+- [musicchain-tokenomics/](./musicchain-tokenomics/)
+- MCIPs in [musicchain-specifications/](./musicchain-specifications/)
 
 ## Why is the full backend not open source?
 

@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29506919/README.md)
 # MusicChain i3
 
 **Stream. Listen. Earn. Verify.**
@@ -8,9 +7,9 @@ MusicChain i3 is a music streaming platform where listening, creating, and parti
 This repository is the **public face** of the project: documentation, standards, and (over time) extractable open-source modules. The production Flask application remains private during early phases.
 
 - **Live site:** [musicchaini3.com](https://musicchaini3.com)
-- **Ecosystem index:** [../README.md](../README.md)
-- **Standards (MCIPs):** [../musicchain-specifications/](../musicchain-specifications/)
-- **Tokenomics reference:** [../musicchain-tokenomics/](../musicchain-tokenomics/)
+- **Ecosystem index:** [ECOSYSTEM.md](./ECOSYSTEM.md)
+- **Standards (MCIPs):** [musicchain-specifications/](./musicchain-specifications/)
+- **Tokenomics reference:** [musicchain-tokenomics/](./musicchain-tokenomics/)
 
 ---
 

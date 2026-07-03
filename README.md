@@ -58,7 +58,7 @@ This repository is **documentation-first** (Phase 1). There is no single `git cl
 | **Docs & specs** | Clone this repo — start at [docs/README.md](./docs/README.md) |
 | **Tokenomics reference** | [musicchain-tokenomics/](./musicchain-tokenomics/) |
 | **API reference (stub)** | [musicchain-api/](./musicchain-api/) |
-| **Mobile app (beta)** | Install via [musicchaini3.com/app](https://musicchaini3.com/app) |
+| **Mobile app (beta)** | Install via [musicchaini3.com/app](https://musicchaini3.com/app) (Android APK/EAS) · Google Play early access in progress |
 | **Full backend** | Private monorepo — not published in Phase 1 |
 
 Public SDKs and extractable packages are on the [roadmap](./ROADMAP.md) (Phase 2–4).
@@ -94,7 +94,8 @@ High-level 2026 milestones — full detail in [ROADMAP.md](./ROADMAP.md):
 | ✅ | Core platform & streaming |
 | ✅ | Analytics & scoreboard |
 | ✅ | Public documentation & MCIPs (Phase 1) |
-| 🟡 | Mobile app (beta / early access) |
+| ✅ | Mobile app (beta) — Android native app via [musicchaini3.com/app](https://musicchaini3.com/app) |
+| 🟡 | Google Play early access — closed/open beta listing |
 | ⬜ | Whitepaper (expanded) |
 | ⬜ | Public API & OpenAPI |
 | ⬜ | JS / Python SDKs |

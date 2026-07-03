@@ -11,7 +11,8 @@
 | ✅ | **Analytics** — listening stats, scoreboard, insights |
 | ✅ | **Public docs & MCIPs** — Phase 1 open-source tree |
 | ✅ | **GitHub repository** — [github.com/I3lackout/musicchaini3](https://github.com/I3lackout/musicchaini3) |
-| 🟡 | **Mobile** — native app beta / early access (Android) |
+| ✅ | **Mobile app (beta)** — Android native app · [musicchaini3.com/app](https://musicchaini3.com/app) |
+| 🟡 | **Google Play early access** — internal → closed/open beta listing |
 | 🟡 | **Whitepaper** — outline live; expanded draft in progress |
 | ⬜ | **Public API** — OpenAPI + read endpoints |
 | ⬜ | **SDK** — JavaScript & Python clients |
@@ -48,7 +49,8 @@ Legend: ✅ shipped · 🟡 in progress · ⬜ planned
 
 - [ ] `musicchain-live`: LiveSession lifecycle, signaling overview (no secrets)
 - [ ] `musicchain-js-sdk` / `musicchain-python-sdk` (read + authenticated flows)
-- [ ] Mobile app: Google Play open beta · App Store listing
+- [x] Mobile app (beta) — Android native via [musicchaini3.com/app](https://musicchaini3.com/app) (EAS/APK)
+- [ ] Google Play early access (beta track) · App Store listing
 - [ ] Documented push + playtime commit API
 
 ## Phase 5 — Governance

@@ -8,7 +8,7 @@ MusicChain i3 delivers music through the **web app**, **PWA**, and **native mobi
 |--------|--------|-------|
 | **Web** | Live | Full feature set at [musicchaini3.com](https://musicchaini3.com) |
 | **PWA** | Live | Add to Home Screen — especially on iPhone via `/app` |
-| **Android mobile** | Beta | Native app — [musicchaini3.com/app](https://musicchaini3.com/app) |
+| **Android mobile** | Beta (live) | Native app — install via [musicchaini3.com/app](https://musicchaini3.com/app) (APK/EAS) |
 | **iOS mobile** | Beta / internal | Expo internal builds; App Store later |
 
 Package: `com.musicchaini3.mobile` · Deep link: `musicchaini3mobile://`
@@ -45,7 +45,8 @@ Live streaming extends playback with:
 
 ## Mobile install
 
-- **Android:** Google Play beta (early access) or APK sideload via `/app`  
+- **Android (now):** APK / EAS install via [musicchaini3.com/app](https://musicchaini3.com/app)  
+- **Android (next):** Google Play beta (early access) — listing in progress  
 - **iPhone:** PWA “Add to Home Screen” or Expo internal native build  
 
 ## API (future)

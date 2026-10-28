@@ -13,7 +13,8 @@
 | ✅ | **GitHub repository** — [github.com/I3lackout/musicchaini3](https://github.com/I3lackout/musicchaini3) |
 | ✅ | **Mobile app (beta)** — Android native app · [musicchaini3.com/app](https://musicchaini3.com/app) |
 | 🟡 | **Google Play early access** — internal → closed/open beta listing |
-| 🟡 | **Whitepaper** — outline live; expanded draft in progress |
+| 🟡 | **Whitepaper v2.0** — Part I–II + Ch. 10–11; [docs/whitepaper-v2/](docs/whitepaper-v2/README.md) |
+| 🟡 | **MCIP-0009** — Successful discovery (North Star event) Draft |
 | ⬜ | **Public API** — OpenAPI + read endpoints |
 | ⬜ | **SDK** — JavaScript & Python clients |
 | ⬜ | **Community nodes** — seed-a-node, network ITC pipeline docs + OSS |

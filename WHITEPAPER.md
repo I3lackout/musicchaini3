@@ -4,6 +4,9 @@
 **Status:** Phase 1 — public draft  
 **Target length:** 15–25 pages when expanded  
 
+> **Whitepaper v2.0** — the discovery narrative — is in progress at [docs/whitepaper-v2/](./docs/whitepaper-v2/README.md).  
+> v0.1 (this file) remains the concise technical outline; v2.0 reframes MusicChain as a discovery operating system.
+
 ---
 
 ## Abstract
@@ -96,8 +99,8 @@ See [ROADMAP.md](./ROADMAP.md).
 ## 15. References
 
 - [TOKENOMICS.md](./TOKENOMICS.md)
-- [musicchain-specifications/](./musicchain-specifications/)
-- [musicchain-tokenomics/](./musicchain-tokenomics/)
+- [../musicchain-specifications/](../musicchain-specifications/)
+- [../musicchain-tokenomics/](../musicchain-tokenomics/)
 - Triad architecture (internal): `docs/triad_soul_architecture.md`
 
 ---

@@ -6,6 +6,8 @@ Welcome to the MusicChain i3 public documentation hub.
 
 | Document | Topic |
 |----------|--------|
+| [**Whitepaper v2.0**](./whitepaper-v2/README.md) | Discovery narrative — vision, law, ecosystem (draft) |
+| [Successful discovery](../../musicchain-specifications/mcip/MCIP-0009-successful-discovery.md) | North Star event (MCIP-0009) |
 | [architecture.md](./architecture.md) | Layers, clients, API boundary |
 | [economy.md](./economy.md) | McCC, Fuel, Gas, ITC, triads |
 | [streaming.md](./streaming.md) | Playback, library, mobile |
@@ -30,6 +32,6 @@ Planned SVG artifacts live under [architecture/](./architecture/). See [architec
 
 ## External repos in this monorepo
 
-- [musicchain-specifications/](./musicchain-specifications/) — MCIPs  
-- [musicchain-tokenomics/](./musicchain-tokenomics/) — reward formulas & examples  
+- [musicchain-specifications/](../musicchain-specifications/) — MCIPs  
+- [musicchain-tokenomics/](../musicchain-tokenomics/) — reward formulas & examples  
 - [musicchain-api/](../musicchain-api/) — public API stub  

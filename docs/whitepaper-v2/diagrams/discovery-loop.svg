@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">MusicChain Discovery Engine Loop</title>
+  <desc id="desc">Circular flow from artist upload through TFPS, community validation, and rewards back to new uploads</desc>
+  <defs>
+    <linearGradient id="stageGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#22d3ee"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="560" fill="#0f172a" rx="12"/>
+
+  <text x="400" y="42" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="22" font-weight="700">The Discovery Engine</text>
+  <text x="400" y="66" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Every stage measured � Every stage rewarded</text>
+
+  <!-- Center hub -->
+  <circle cx="400" cy="300" r="68" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+  <text x="400" y="292" text-anchor="middle" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Music</text>
+  <text x="400" y="308" text-anchor="middle" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Discovery</text>
+  <text x="400" y="324" text-anchor="middle" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Law</text>
+
+  <!-- Stage boxes - positioned in circle -->
+  <!-- Top: Upload -->
+  <rect x="310" y="88" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="400" y="112" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Artist uploads</text>
+  <text x="400" y="130" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Track enters surface</text>
+
+  <!-- Top-right: First 100 -->
+  <rect x="530" y="148" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="620" y="172" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Early discovery</text>
+  <text x="620" y="190" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">First 100 listeners</text>
+
+  <!-- Right: TFPS -->
+  <rect x="570" y="274" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="660" y="298" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">TFPS observes</text>
+  <text x="660" y="316" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Field pressure rises</text>
+
+  <!-- Bottom-right: Community -->
+  <rect x="530" y="400" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="620" y="424" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Community validates</text>
+  <text x="620" y="442" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Votes � live feedback</text>
+
+  <!-- Bottom: Score -->
+  <rect x="310" y="460" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="400" y="484" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Discovery Score rises</text>
+  <text x="400" y="502" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Rankings update</text>
+
+  <!-- Bottom-left: Recommend -->
+  <rect x="90" y="400" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="180" y="424" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Recommendations</text>
+  <text x="180" y="442" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Discovery DNA match</text>
+
+  <!-- Left: Artist grows -->
+  <rect x="50" y="274" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="140" y="298" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Artist grows</text>
+  <text x="140" y="316" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Authentic audience</text>
+
+  <!-- Top-left: Reward -->
+  <rect x="90" y="148" width="180" height="52" fill="url(#stageGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="180" y="172" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Community rewarded</text>
+  <text x="180" y="190" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">XP � McCC � badges</text>
+
+  <!-- Circular arrows (simplified arcs with arrows) -->
+  <path d="M 400 140 L 530 160" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 660 200 L 660 274" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 620 400 L 490 470" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 310 490 L 180 440" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 140 400 L 140 326" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 180 200 L 310 120" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 260 170 L 340 250" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 460 250 L 540 170" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- North Star -->
+  <rect x="220" y="518" width="360" height="30" fill="#1e293b" stroke="#475569" stroke-width="1" rx="6"/>
+  <text x="400" y="538" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">North Star: Successful discoveries per day</text>
+</svg>

@@ -14,6 +14,7 @@ Normative standards for MusicChain i3 — similar in spirit to EIPs/BIPs, scoped
 | [0006](./mcip/MCIP-0006-validation.md) | Chain validation | Draft |
 | [0007](./mcip/MCIP-0007-musicchainlog.md) | MusicChainLog | Draft |
 | [0008](./mcip/MCIP-0008-live-sessions.md) | Live sessions | Draft |
+| [0009](./mcip/MCIP-0009-successful-discovery.md) | Successful discovery events (North Star) | Draft |
 
 ## Status lifecycle
 
@@ -24,7 +25,7 @@ Normative standards for MusicChain i3 — similar in spirit to EIPs/BIPs, scoped
 
 ## How to propose
 
-See [../CONTRIBUTING.md](../CONTRIBUTING.md).
+See [../musicchaini3/CONTRIBUTING.md](../musicchaini3/CONTRIBUTING.md).
 
 ## Template
 

@@ -19,7 +19,7 @@ creator_fuel  = seconds × 0.0000000045313
 chain_fuel    = seconds × 0.0000000274
 ```
 
-Interaction tables: see [RewardEngine.md](../musicchain-tokenomics/RewardEngine.md).
+Interaction tables: see [RewardEngine.md](../../musicchain-tokenomics/RewardEngine.md).
 
 ## Reference implementation
 

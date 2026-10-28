@@ -4,6 +4,16 @@
 
 **MusicChain i3 turns listening and creation into a transparent, auditable music economy — not an opaque algorithm.**
 
+## Discovery layer (public narrative)
+
+Product and community positioning for growth lives in **[Whitepaper v2.0](./docs/whitepaper-v2/README.md)**:
+
+- **Spotify optimizes for songs. MusicChain optimizes for discovery.**
+- **North Star:** successful discoveries per day
+- **Music Discovery Law:** every authentic interaction should increase the probability that the next great artist is discovered.
+
+v2.0 is the story layer; this file and [WHITEPAPER.md](./WHITEPAPER.md) v0.1 remain the economy/tech compact view.
+
 ## Problem
 
 Music platforms concentrate value in intermediaries. Creators see opaque payouts. Listeners have no stake. “Crypto music” projects often ship a token first and a product second.

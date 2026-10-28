@@ -33,7 +33,7 @@ Native Android/iOS builds use background audio and media controls where the OS a
 
 ## Playtime → rewards
 
-Streaming is not passive entertainment only — documented playtime can generate **McCC**, **Fuel**, and **Gas** movements per tier tables. Rates are public in MCIPs and [musicchain-tokenomics/](./musicchain-tokenomics/).
+Streaming is not passive entertainment only — documented playtime can generate **McCC**, **Fuel**, and **Gas** movements per tier tables. Rates are public in MCIPs and [musicchain-tokenomics/](../musicchain-tokenomics/).
 
 ## Live sessions
 

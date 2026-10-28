@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Platform Incentive Stack</title>
+  <desc id="desc">Flow showing how engagement-optimized platforms reinforce familiarity over discovery</desc>
+  <defs>
+    <linearGradient id="nodeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#6366f1"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="480" fill="#0f172a" rx="12"/>
+
+  <text x="360" y="42" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="22" font-weight="700">The Incentive Stack</text>
+  <text x="360" y="66" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">What today's platforms actually optimize</text>
+
+  <!-- Nodes -->
+  <rect x="210" y="88" width="300" height="44" fill="url(#nodeGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="360" y="116" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Listener opens app</text>
+
+  <line x1="360" y1="132" x2="360" y2="152" stroke="#6366f1" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="210" y="154" width="300" height="44" fill="url(#nodeGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="360" y="182" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Platform maximizes session time</text>
+
+  <line x1="360" y1="198" x2="360" y2="218" stroke="#6366f1" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="210" y="220" width="300" height="44" fill="url(#nodeGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="360" y="248" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Algorithm favors known patterns</text>
+
+  <line x1="360" y1="264" x2="360" y2="284" stroke="#6366f1" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="210" y="286" width="300" height="44" fill="url(#nodeGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="360" y="314" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Established artists get more exposure</text>
+
+  <line x1="360" y1="330" x2="360" y2="350" stroke="#6366f1" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="210" y="352" width="300" height="44" fill="url(#nodeGrad)" stroke="#6366f1" stroke-width="1.5" rx="8"/>
+  <text x="360" y="380" text-anchor="middle" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="14" font-weight="600">New artists struggle for visibility</text>
+
+  <!-- Loop arrow -->
+  <path d="M 510 374 Q 600 374 600 260 Q 600 100 510 110" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="630" y="260" fill="#64748b" font-family="system-ui, sans-serif" font-size="12" transform="rotate(90 630 260)">Repeat</text>
+
+  <!-- MusicChain contrast -->
+  <rect x="40" y="410" width="640" height="52" fill="#1e293b" stroke="#22d3ee" stroke-width="1.5" rx="8"/>
+  <text x="360" y="434" text-anchor="middle" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="13" font-weight="700">MusicChain asks a different question:</text>
+  <text x="360" y="454" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-style="italic">Who deserves to be discovered next?</text>
+</svg>

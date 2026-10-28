@@ -36,7 +36,7 @@ Tier multiplier tables are maintained in `musicchain-tokenomics` when published.
 
 ### Interaction actions
 
-Per-action Iron constants in [RewardEngine.md](../musicchain-tokenomics/RewardEngine.md).
+Per-action Iron constants in [RewardEngine.md](../../musicchain-tokenomics/RewardEngine.md).
 
 ## Rationale
 

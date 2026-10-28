@@ -41,7 +41,7 @@ effective = iron_base × tier_multiplier[token][role]
 Δ = effective − iron_base   (shown in UI breakdown)
 ```
 
-Normative tables: MCIPs in [musicchain-specifications/](./musicchain-specifications/).
+Normative tables: MCIPs in [musicchain-specifications/](../musicchain-specifications/).
 
 ## Interaction types
 
@@ -53,8 +53,8 @@ Beyond listening, the platform records profile and track interactions:
 ## Tokenomics reference
 
 - Overview: [TOKENOMICS.md](../TOKENOMICS.md)  
-- Walkthrough: [musicchain-tokenomics/examples/listen_one_minute.md](./musicchain-tokenomics/examples/listen_one_minute.md)  
-- Engine notes: [musicchain-tokenomics/RewardEngine.md](./musicchain-tokenomics/RewardEngine.md)  
+- Walkthrough: [musicchain-tokenomics/examples/listen_one_minute.md](../musicchain-tokenomics/examples/listen_one_minute.md)  
+- Engine notes: [musicchain-tokenomics/RewardEngine.md](../musicchain-tokenomics/RewardEngine.md)  
 
 ## Proposing changes
 

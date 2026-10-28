@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">The Visibility Funnel</title>
+  <desc id="desc">Diagram showing how 10,000 uploaded songs narrow to 50 widely visible tracks on typical platforms</desc>
+  <defs>
+    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3730a3"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="bar5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="520" fill="#0f172a" rx="12"/>
+
+  <!-- Title -->
+  <text x="360" y="42" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="22" font-weight="700">The Visibility Funnel</text>
+  <text x="360" y="66" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Not talent. Visibility.</text>
+
+  <!-- Stage 1 -->
+  <text x="40" y="110" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600">10,000 songs uploaded</text>
+  <rect x="40" y="120" width="640" height="36" fill="url(#bar1)" rx="4"/>
+  <text x="360" y="143" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">10,000</text>
+
+  <!-- Arrow 1 -->
+  <line x1="360" y1="160" x2="360" y2="178" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="360" y="192" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">listened to at least once</text>
+
+  <!-- Stage 2 -->
+  <text x="40" y="218" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600">5,000 songs</text>
+  <rect x="40" y="228" width="480" height="36" fill="url(#bar2)" rx="4"/>
+  <text x="280" y="251" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">5,000</text>
+
+  <!-- Arrow 2 -->
+  <line x1="360" y1="268" x2="360" y2="286" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="360" y="300" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">recommended to others</text>
+
+  <!-- Stage 3 -->
+  <text x="40" y="326" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600">2,000 songs</text>
+  <rect x="40" y="336" width="280" height="36" fill="url(#bar3)" rx="4"/>
+  <text x="180" y="359" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">2,000</text>
+
+  <!-- Arrow 3 -->
+  <line x1="360" y1="376" x2="360" y2="394" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="360" y="408" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">trending or editorial surfaces</text>
+
+  <!-- Stage 4 -->
+  <text x="40" y="434" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600">500 songs</text>
+  <rect x="40" y="444" width="120" height="36" fill="url(#bar4)" rx="4"/>
+  <text x="100" y="467" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">500</text>
+
+  <!-- Arrow 4 -->
+  <line x1="100" y1="484" x2="100" y2="492" stroke="#475569" stroke-width="2"/>
+
+  <!-- Stage 5 - bottleneck -->
+  <text x="200" y="434" fill="#fca5a5" font-family="system-ui, sans-serif" font-size="14" font-weight="600">50 widely visible</text>
+  <rect x="200" y="444" width="48" height="36" fill="url(#bar5)" rx="4"/>
+  <text x="224" y="467" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="700">50</text>
+
+  <!-- Callout -->
+  <rect x="300" y="430" width="380" height="70" fill="#1e293b" stroke="#ef4444" stroke-width="1.5" rx="8"/>
+  <text x="490" y="458" text-anchor="middle" fill="#ef4444" font-family="system-ui, sans-serif" font-size="15" font-weight="700">The bottleneck</text>
+  <text x="490" y="482" text-anchor="middle" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">0.5% of uploads become widely visible</text>
+
+  <!-- Footer -->
+  <text x="360" y="510" text-anchor="middle" fill="#475569" font-family="system-ui, sans-serif" font-size="11">MusicChain Whitepaper v2.0 � Part I</text>
+</svg>

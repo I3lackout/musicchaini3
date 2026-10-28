@@ -41,9 +41,9 @@ The live site exposes track blockchain views, MusicChain logs, and proof-oriente
 
 | MCIP | Topic |
 |------|--------|
-| [MCIP-0005](./musicchain-specifications/mcip/MCIP-0005-trackblock.md) | TrackBlock structure |
-| [MCIP-0006](./musicchain-specifications/mcip/MCIP-0006-validation.md) | Validation rules |
-| [MCIP-0007](./musicchain-specifications/mcip/MCIP-0007-musicchainlog.md) | MusicChainLog schema |
+| [MCIP-0005](../musicchain-specifications/mcip/MCIP-0005-trackblock.md) | TrackBlock structure |
+| [MCIP-0006](../musicchain-specifications/mcip/MCIP-0006-validation.md) | Validation rules |
+| [MCIP-0007](../musicchain-specifications/mcip/MCIP-0007-musicchainlog.md) | MusicChainLog schema |
 
 ## Related
 

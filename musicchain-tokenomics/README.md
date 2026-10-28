@@ -15,7 +15,8 @@ musicchain-tokenomics/
 ├── README.md
 ├── RewardEngine.md      # Iron constant tables
 ├── examples/
-│   └── listen_one_minute.md
+│   ├── listen_one_minute.md
+│   └── successful_discovery.md
 └── (Phase 2) validation.py, tests/, pyproject.toml
 ```
 

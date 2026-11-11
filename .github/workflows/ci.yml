@@ -1,0 +1,84 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - feat/cloud-dev-env-v1-from-main
+
+permissions:
+  contents: read
+
+jobs:
+  detect:
+    name: Detect application suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      present: ${{ steps.detect.outputs.present }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Record whether economics/tests exists
+        id: detect
+        run: |
+          set -euo pipefail
+          if [[ -d economics/tests ]]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+            echo "Application suite is present. The application-tests job will run it." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "Application suite is absent. The application-tests job will be skipped and is not a passing test result." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  configuration:
+    name: Configuration only
+    needs: detect
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check environment configuration
+        run: bash scripts/cloud/install.sh
+
+      - name: Check scripts
+        run: bash scripts/cloud/test.sh
+
+      - name: State the boundary
+        run: |
+          {
+            echo "## Configuration only"
+            echo "This job does not execute the 63 application tests."
+            echo "A green result here means the Cloud Agent scripts and environment file parsed."
+            echo "Application-test status is reported only by the job named Application tests."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  application-tests:
+    name: Application tests
+    needs: detect
+    if: needs.detect.outputs.present == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install isolated test dependencies
+        run: bash scripts/cloud/install.sh
+
+      - name: Run application tests
+        run: bash scripts/cloud/test.sh

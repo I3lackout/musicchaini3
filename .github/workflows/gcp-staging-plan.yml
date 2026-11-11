@@ -1,0 +1,40 @@
+name: Google Cloud staging plan
+
+# Manual plan only. This workflow does not build images, deploy Cloud Run,
+# or create any Google Cloud resources.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Only "plan" is implemented. Deployment is not available.
+        required: true
+        type: choice
+        options:
+          - plan
+        default: plan
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    name: Show staging plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: musicchain-staging
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Refuse anything except the plan
+        env:
+          REQUESTED_ACTION: ${{ inputs.action }}
+        run: |
+          set -euo pipefail
+          if [[ "$REQUESTED_ACTION" != "plan" ]]; then
+            echo "Unsupported action: $REQUESTED_ACTION" >&2
+            exit 1
+          fi
+          echo "No Google Cloud resources will be created."
+          echo "Read cloud/I3_CLOUD_DEVELOPMENT_V1.md before any deployment."
+          test -f cloud/I3_CLOUD_DEVELOPMENT_V1.md

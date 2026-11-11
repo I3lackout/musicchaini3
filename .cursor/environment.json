@@ -1,0 +1,12 @@
+{
+  "name": "musicchaini3-dev",
+  "install": "bash scripts/cloud/install.sh",
+  "start": "bash scripts/cloud/start.sh",
+  "enable_testing": true,
+  "ports": [
+    {
+      "name": "flask-test",
+      "port": 5000
+    }
+  ]
+}
